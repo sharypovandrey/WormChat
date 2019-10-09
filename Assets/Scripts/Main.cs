@@ -16,8 +16,8 @@ public class Main : MonoBehaviour
             ball = GameObject.Find("Quad");
         }
  
- // Update is called once per frame
- void Update ()
+    // Update is called once per frame
+    void Update ()
     {
         // Debug.Log("update");
         Debug.Log(targetPosition.x);
